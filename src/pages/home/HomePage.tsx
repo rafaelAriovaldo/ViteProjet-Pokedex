@@ -1,10 +1,9 @@
-import './styles/main.css'
+
 import { Header } from './components/Header'
 import { Containner } from './components/containner'
 import {Main} from './components/main'
-function App() {
 
-
+export function HomePage() {
   return (
     <div>
       <Header/>
@@ -14,4 +13,3 @@ function App() {
   )
 }
 
-export default App

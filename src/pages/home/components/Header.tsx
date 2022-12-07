@@ -1,5 +1,5 @@
-import pokeballLeft from '../assets/pokeballLeft.png';
-import pokeballRight from '../assets/rightPokeboll.png'
+import pokeballLeft from '../../../assets/pokeballLeft.png';
+import pokeballRight from '../../../assets/rightPokeboll.png'
 
 export function Header() {
     return (

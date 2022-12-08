@@ -1,5 +1,7 @@
-import { createBrowserRouter,Link } from "react-router-dom";
+
+import { createBrowserRouter, Route} from "react-router-dom";
 import { HomePage } from "./pages/home/HomePage";
+import { RegisterPokemonPage } from "./pages/registration/Registration";
 
 export const router = createBrowserRouter([
     {
@@ -7,10 +9,13 @@ export const router = createBrowserRouter([
       element: <HomePage/>,
     },
     {
-        path: "/home",
-        element: <div>hello word
-            <Link to={'/'}>Text </Link><br></br>
-            <a href="/">asdasd</a>
+        path: '/pokemom/register',
+        element: <RegisterPokemonPage/>,
+      },
+      {
+        path: "/abc",
+        element: <div>
+          <h1>Ok pense</h1>
         </div>,
       },
   ]);

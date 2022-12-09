@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Main() {
     return (
+        <main>
         <div className=' bg-red-600 w-[1113px] h-[559px] border rounded-2xl justify-center ml-[25rem] mt-[3rem] flex '>
 
             <form action="/registerPokmeon" method="post" >
@@ -38,6 +39,6 @@ export function Main() {
             </form>
 
         </div>
-
+        </main>
     )
 } 

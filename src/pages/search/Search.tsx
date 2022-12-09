@@ -1,12 +1,9 @@
 import { Containner } from "./components/containner"
-import { Main } from "./components/main"
-export  function RegisterPokemonPage(){
+
+export function SearchPage(){
     return(
         <div>
             <Containner/>
-            <Main/>
         </div>
     )
-
-    
 }
